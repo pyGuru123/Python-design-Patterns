@@ -55,6 +55,8 @@ There are 3 types of Design patterns
 * Attributes represents properties of an entity. It captures the current state of the entity.
 * Methods represents the behavior of the entity.
 
+***
+
 ### Design Pattern context
 A pattern context consist of the following
 * Participants : It refers to classes involved to form a design pattern. Each class play a different role to accomplish the goal of the design pattern.
@@ -62,6 +64,8 @@ A pattern context consist of the following
 * Forces : It refers to various factors or trade-offs.
 * Consequences : It can be worst performance.
 A descision maker should consider a design pattern after thoroughly considering its consequences.
+
+***
 
 ### Design Pattern Language
 A design pattern is kind of a new language which consists of
