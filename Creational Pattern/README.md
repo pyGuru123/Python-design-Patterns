@@ -33,3 +33,16 @@ Singleton is used when you want to allow only one object to be created from a cl
 * Lets say there's a need of keeping cache of information shared by multiple objects, it can be done either keeping the information in a singleton or sharing it under borg object.
 
 Example of Singleton & Borg : [singleton.py](https://github.com/pyGuru123/Python-design-Patterns/blob/main/Creational%20Pattern/singleton.py)
+
+***
+
+### Builder
+A builder is a solution to an antipattern called as telescoping constructor. An antipattern is the opposite of best practice that we want to avoid. It occuers when a dev tries to create a complex object using a excessive number of constructors.
+* The Builder design pattern tries to solve this problem by dividing the process in 4 roles ( divide & conquer strategy )
+* Director : incharge of actually building the product
+* Abstract Builder : provides all the necessary interfaces required to build the product
+* Concrete Builder : inherits from abstract builder and implements the details of the interface
+* Product : represents the object being built.
+Builder pattern does not rely on polymorphism unlike factory and abstract factory.
+
+Example of Builder : [builder.py](https://github.com/pyGuru123/Python-design-Patterns/blob/main/Creational%20Pattern/builder.py)

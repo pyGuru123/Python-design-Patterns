@@ -25,4 +25,4 @@ print(s1)
 s2 = Singleton(SMTP = "Simple Mail Transfer Protocol")
 print(s2)
 
-# Here the Borg dict is shared between the two objects of the singleton
+# Here the Borg dict is shared between the two objects of the singleton, basically it acts as a global variable for all objects of the singleton.
