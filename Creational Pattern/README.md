@@ -24,3 +24,12 @@ Abstract factory is useful when the user expects to receive a family of multiple
 * Abstract factory creates objects while concrete factories are often singletons.
 
 Example of abstract factory : [abstractFactory.py](https://github.com/pyGuru123/Python-design-Patterns/blob/main/Creational%20Pattern/abstractFactory.py)
+
+***
+
+### Singleton
+Singleton is used when you want to allow only one object to be created from a class. Its an object oriented way of providing global variables.
+* In python community, a borg is a term which allows creation of multiple instances but they all share same state, unlike singleton.
+* Lets say there's a need of keeping cache of information shared by multiple objects, it can be done either keeping the information in a singleton or sharing it under borg object.
+
+Example of Singleton & Borg : [singleton.py](https://github.com/pyGuru123/Python-design-Patterns/blob/main/Creational%20Pattern/singleton.py)

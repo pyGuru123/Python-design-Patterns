@@ -78,6 +78,6 @@ A design pattern is kind of a new language which consists of
 ### Read More
 
 Creational Design Pattern : [creational pattern](https://github.com/pyGuru123/Python-design-Patterns/tree/main/Creational%20Pattern)
-* Concrete Factory : [factory](https://github.com/pyGuru123/Python-design-Patterns/blob/main/Creational%20Pattern/factory.py)
-* Abstract Factory : [abstract factory](https://github.com/pyGuru123/Python-design-Patterns/blob/main/Creational%20Pattern/abstractFactory.py)
-* Singleton : [singleton]()
+* Concrete Factory
+* Abstract Factory
+* Singleton
