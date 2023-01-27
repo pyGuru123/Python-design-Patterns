@@ -81,3 +81,12 @@ Creational Design Pattern : [creational pattern](https://github.com/pyGuru123/Py
 * Concrete Factory
 * Abstract Factory
 * Singleton
+* Builder
+* Prototype
+
+Structural Design Pattern : [structural pattern](https://github.com/pyGuru123/Python-design-Patterns/tree/main/Structural%20Pattern)
+* Decorator
+* Proxy
+* Adapter
+* Composite
+* Bridge

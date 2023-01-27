@@ -42,7 +42,16 @@ A builder is a solution to an antipattern called as telescoping constructor. An 
 * Director : incharge of actually building the product
 * Abstract Builder : provides all the necessary interfaces required to build the product
 * Concrete Builder : inherits from abstract builder and implements the details of the interface
-* Product : represents the object being built.
+* Product : represents the object being built.\
 Builder pattern does not rely on polymorphism unlike factory and abstract factory.
 
 Example of Builder : [builder.py](https://github.com/pyGuru123/Python-design-Patterns/blob/main/Creational%20Pattern/builder.py)
+
+***
+
+### Prototype
+Prototype means copying or cloning objects instead of building a new object using the __init__ method. Prototype is useful while instantiating many identical objects individually.
+* Here we first create a prototypical instance first and then clone it whenever we need a replica.
+* Cloning makes a carbon copy in the memory space instead of building individual objects.
+
+Example of Prototype : [prototype.py](https://github.com/pyGuru123/Python-design-Patterns/blob/main/Creational%20Pattern/prototype.py)
