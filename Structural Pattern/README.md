@@ -26,3 +26,13 @@ Proxy is helpful when creating a very highly resource intensive object.
 * The proxy object is responsible for creating the resource intensive object.
 
 Proxy Example : [proxy.py](https://github.com/pyGuru123/Python-design-Patterns/blob/main/Structural%20Pattern/proxy.py)
+
+***
+
+### Adapter
+The Adapter pattern converts interface of a class to another the client is expecting.
+* The problem here is that interfaces are incomaptible between the client and the server.
+* The scenario here is that we have two methods speak_korean() for korean and speak_english() for english. The client expects to iuse a single method speak() for both.
+* The solution is to use the Adapter pattern which translates between the two methods for the client.
+
+Adapter Example : [adapter.py](https://github.com/pyGuru123/Python-design-Patterns/blob/main/Structural%20Pattern/adapter.py)
