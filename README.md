@@ -90,3 +90,10 @@ Structural Design Pattern : [structural pattern](https://github.com/pyGuru123/Py
 * Adapter
 * Composite
 * Bridge
+
+Behavioral Design Pattern : [behavioral pattern](https://github.com/pyGuru123/Python-design-Patterns/tree/main/Behavioral%20Pattern)
+* Observer
+* Visitor
+* Iterator
+* Strategy
+* Chain of responsibility
