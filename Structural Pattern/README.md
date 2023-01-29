@@ -36,3 +36,20 @@ The Adapter pattern converts interface of a class to another the client is expec
 * The solution is to use the Adapter pattern which translates between the two methods for the client.
 
 Adapter Example : [adapter.py](https://github.com/pyGuru123/Python-design-Patterns/blob/main/Structural%20Pattern/adapter.py)
+
+***
+
+### Composite
+A composite design pattern maintains a tree data structure.
+* The problem here is to build a recursive tree data structure so that an element of the tree can have subelements
+* Here the scenerio is creating menu and submenu items, which can have further submenu items.
+* The solution consists of 3 major elements.
+	Component : An abstract class
+	Child : A concrete class inherits from the component
+	Composite : A concrete class which also inherits from component. The composite class maintains child objects by ading and removing them to a tree data structure.
+
+Composite Example : [composite.py](https://github.com/pyGuru123/Python-design-Patterns/blob/main/Structural%20Pattern/composite.py)
+
+***
+
+### Bridge
