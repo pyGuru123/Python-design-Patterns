@@ -16,3 +16,14 @@ Decorator Example : [decorator.py](https://github.com/pyGuru123/Python-design-Pa
 
 ***
 
+### Visitor
+The visitor allows adding new features to existing class hierarchy without changing it.
+* The problem here is to add new operations dynamically to existing classes.
+* The scenario includes a house, a hvac specialist and an electrcian who are visitors of type 1 and type 2.
+* The solution includes applying new operations on verious elements of an existing class hierarchy.
+
+Visitor Example : [visitor.py](https://github.com/pyGuru123/Python-design-Patterns/blob/main/Behavioral%20Pattern/visitor.py)
+
+***
+
+Homepage : [home](https://github.com/pyGuru123/Python-design-Patterns)

@@ -59,3 +59,7 @@ Bridge patten helps untangle a complicated class hierarchy
 * The solution tries to seperate the abstraction into two different class hierarchies.
 
 Bridge Example : [bridge.py](https://github.com/pyGuru123/Python-design-Patterns/blob/main/Structural%20Pattern/bridge.py)
+
+***
+
+Homepage : [home](https://github.com/pyGuru123/Python-design-Patterns)

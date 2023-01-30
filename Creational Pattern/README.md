@@ -55,3 +55,7 @@ Prototype means copying or cloning objects instead of building a new object usin
 * Cloning makes a carbon copy in the memory space instead of building individual objects.
 
 Example of Prototype : [prototype.py](https://github.com/pyGuru123/Python-design-Patterns/blob/main/Creational%20Pattern/prototype.py)
+
+***
+
+Homepage : [home](https://github.com/pyGuru123/Python-design-Patterns)
